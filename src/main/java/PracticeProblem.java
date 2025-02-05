@@ -13,18 +13,18 @@ public class PracticeProblem {
 	
 	public static void q1() {
 		Scanner in = new Scanner(System.in);
-		System.out.println("In: ");
+		System.out.print("In: ");
 		String int1 = in.nextLine(); 
 		System.out.println(int1);
 
 	}
 
 	public static void q2() {
-		System.out.println("In: ");
+		System.out.print("In: ");
 		Scanner in = new Scanner(System.in);
 		int firstimput = in.nextInt();
 		in.nextLine();
-		System.out.println("In: ");
+		System.out.print("In: ");
 		int secondimput = in.nextInt();
 		in.nextLine();
 		System.out.println(firstimput/secondimput);
@@ -39,7 +39,7 @@ public class PracticeProblem {
 
 	public static void q3() {
 		Scanner in = new Scanner(System.in);
-		System.out.println("In: ");
+		System.out.print("In: ");
 		String prompt1 = in.nextLine();
 		System.out.println(prompt1 + " was the text you wrote");	
 
@@ -47,7 +47,7 @@ public class PracticeProblem {
 
 	public static void q4() {
 		Scanner in = new Scanner(System.in);
-		System.out.println("In: ");
+		System.out.print("In: ");
 		int numtimesfive = in.nextInt();
 		in.nextLine();
 		System.out.println(5*numtimesfive);
@@ -56,7 +56,7 @@ public class PracticeProblem {
 
 	public static void q5() {
 		Scanner in = new Scanner(System.in);
-		System.out.println("In: ");
+		System.out.print("In: ");
 		boolean boo = in.nextBoolean();
 		in.nextLine();
 		System.out.println(boo + " is a boolean");
@@ -65,7 +65,7 @@ public class PracticeProblem {
 
 	public static void q6() {
 		Scanner in = new Scanner(System.in);
-		System.out.println("In: ");
+		System.out.print("In: ");
 		double yippie = in.nextDouble();
 		in.nextLine();
 		System.out.println(yippie-3.2);
